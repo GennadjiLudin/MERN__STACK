@@ -1,0 +1,38 @@
+{
+  "name": "mern__stack",
+  "version": "1.0.0",
+  "description": "Test app for MERN Stack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GennadjiLudin/MERN__STACK.git"
+  },
+  "keywords": [
+    "mern",
+    "react"
+  ],
+  "author": "Gennadji Ludin <ledingennadji@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GennadjiLudin/MERN__STACK/issues"
+  },
+  "homepage": "https://github.com/GennadjiLudin/MERN__STACK#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.2"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
