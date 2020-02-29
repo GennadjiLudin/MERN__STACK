@@ -1,5 +1,6 @@
 {
     "port": 5000,
     "jwtSecret": "secret token for mern project",
-    "mongoUri": "mongodb+srv://ludingv:DjnnfrDjn!1@cluster0-5erbz.azure.mongodb.net/app?retryWrites=true&w=majority"
+    "mongoUri": "mongodb+srv://ludingv:DjnnfrDjn!1@cluster0-5erbz.azure.mongodb.net/app?retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:5000"
 }
